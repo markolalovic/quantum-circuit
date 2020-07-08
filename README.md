@@ -12,4 +12,9 @@ The data structure for quantum circuits consists of four classes:
 
 We simulate the behaviour of quantum circuits computation via an iterative application of the gate matrices to the input vector.
 
-We can use it to simulate quantum algorithms. Here we simulate Grover's algorithm for searching an unstructured database of unordered list. Grover's algorithm runs quadratically faster than the best possible classical algorithm for the same task.
+We can use it to simulate quantum algorithms. Here we simulate Grover's algorithm for searching an unstructured database of unordered list. Grover's algorithm runs quadratically faster than the best possible classical algorithm for the same task. 
+
+To run the simulation of the Grover's algorithm:
+```bash
+python3 quantum-circuit.py
+```
